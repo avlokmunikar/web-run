@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h2>Contact Me</h2>
+
+    <form action="mailto:munikaravlok4@gmail.com" enctype="text/plain" method="POST">
+      <fieldset>
+        <legend>Basic Info</legend>
+
+        <p>
+          <label for="username">Your Name</label>
+          <input type="text" name="username" id="username" placeholder="yourname">
+        </p>
+
+        <p>
+          <label for="username">Your Email</label>
+          <input type="text" name="username" id="username" placeholder="youremail">
+        </p>
+        <p>
+          <label for="drop">Your Fav Coffee</label>
+          <select name="coffee" id="drop">
+            <optgroup label="warm">
+              <option value="war">warm</option>
+              <option value="expre">expresso</option>
+
+            </optgroup>
+            <optgroup label="cold">
+              <option value="latte">latte</option>
+              <option value="ameri">americano</option>
+              <option value="cold">cold coffee</option>
+              <option value="ice">ice</option>
+            </optgroup>
+
+
+          </select>
+
+        </p>
+        <p>
+          <label for="phone">Your Phone</label>
+          <input type="tel" name="phone" id="phone">
+        </p>
+        <h4>Select</h4>
+        <p>
+          <input type="radio" name="gender" id="male" value="male">
+          <label for="male">Male</label>
+        </p>
+        <p>
+          <input type="radio" name="gender" id="female" value="female">
+          <label for="female">Female</label>
+        </p>
+
+        <h4>Your Fav Pets</h4>
+        <p>
+          <input type="checkbox" name="pets" id="cat" value="cat">
+          <label for="cat">Cat</label>
+        </p>
+
+        <p>
+          <input type="checkbox" name="pets" id="rat" value="rat">
+          <label for="rat">Rat</label>
+        </p>
+        <p>
+          <label for="message">Message:</label> <br>
+          <textarea name="note" id="note" cols="30" rows="10"></textarea>
+        </p>
+        <button type="reset">reset</button>
+        <button type="submit">submit</button>
+
+      </fieldset>
+    </form>
+
+  </body>
+
+</html>
